@@ -1,0 +1,105 @@
+.menu-principal {
+    background-color: black;
+    height: 75px;
+
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0px !important;
+}
+
+.main{
+    width: 980px;
+}
+
+.logo{
+    float: left;
+    padding: 16px;
+    width: 60%;
+}
+.redes-sociais ul li{
+    display: flex;
+    float: left;
+    list-style: none;
+    gap: 20px;
+    margin: 10px 10px;
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: cornsilk;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: rgb(174, 181, 174);
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: blue;
+ }
+
+.header2{
+   
+    width: 980px;
+    margin:0 auto;
+    padding: 50px;
+    
+
+}
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid cornsilk;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: antiquewhite;
+    margin-left: 15px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;  
+}
+.busca input{
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin: top 10px; ;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
