@@ -57,28 +57,43 @@ a:link {
 
 .header2{
    
-    width: 980px;
+    width: 900px;
     margin:0 auto;
-    padding: 50px;
+    padding: 2px;
     
 
+}
+
+.col-100 {
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    padding: 3px;
+    text-transform: uppercase;
 }
 
 .menu-urls{
-    height: 80px;
-    border-bottom: 3px solid cornsilk;
-}
+    height: 0px;
+    border-bottom: 0px solid cornsilk;
+} 
 
-.menu ul li{
+ .menu ul li{
     display: inline-block;
     color: antiquewhite;
-    margin-left: 15px;
-    
-}
+    margin-left: 0px;
+    text-transform: uppercase;
+ }
+
 
 .menu ul li a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     
 }
@@ -86,20 +101,19 @@ a:link {
     width: 70%;
     float: left;
 }
-.busca{
-    text-align: center;
-    width: 30%;
-    float: right;  
-}
-.busca input{
-    height: 36px;
-    padding: 12px;
-    width: 190px;
-    margin: top 10px; ;
-}
+ 
+
 
 .col-100{
     width: 100%;
     float: left;
     position: relative;
 }
+
+.navbar form {
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .form-control {
+    width: 200px; /* Adjust as needed */
+  }
