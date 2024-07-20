@@ -1,0 +1,32 @@
+body { 
+    background-color: #000;
+}
+
+header, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+}
+
+#logo {
+    width: 95%;
+    background-color: #171717;
+    margin: 2vh;
+    padding: 2.5vh;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#poster {
+    width: 85%;
+    margin: 5%;
+}
+
+.details {
+    margin: 5%;
+}
