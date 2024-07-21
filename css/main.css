@@ -1,13 +1,17 @@
 .menu-principal {
-    background-color: black;
+    background-color: #000000;
     height: 75px;
-
 }
 
-.body {
+html {
+    background-color: #171717;
+}
+
+body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 ul{
@@ -102,8 +106,6 @@ a:link {
     float: left;
 }
  
-
-
 .col-100{
     width: 100%;
     float: left;
@@ -117,3 +119,53 @@ a:link {
   .form-control {
     width: 200px; /* Adjust as needed */
   }
+
+#carouselExampleIndicators {
+    padding-bottom: 3vh;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Espaço entre as fotos */
+    padding-left: 1.5vw;
+}
+
+.photo {
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 5vh;
+    color:aliceblue;
+}
+
+.melhores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#melhores {
+    text-align: center;
+}
+
+.hashtags {
+    color: #b43535;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(44, 41, 40, 0.795);
+    margin: 5vh;
+    font-size: 12px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 3rem;
+}
