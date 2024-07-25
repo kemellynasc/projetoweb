@@ -12,6 +12,7 @@ body {
     height: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
 }
 
 ul{
@@ -113,11 +114,11 @@ a:link {
 }
 
 .navbar form {
-    width: 300px; /* Adjust as needed */
+    width: 300px;
   }
   
   .form-control {
-    width: 200px; /* Adjust as needed */
+    width: 200px;
   }
 
 #carouselExampleIndicators {
@@ -127,13 +128,17 @@ a:link {
 .photo-container {
     display: flex;
     justify-content: space-between;
-    gap: 10px; /* Espaço entre as fotos */
+    gap: 10px;
     padding-left: 1.5vw;
+}
+
+#photo {
+    width: 750%;
 }
 
 .photo {
     width: 100%;
-    max-width: 300px; /* Ajuste conforme necessário */
+    max-width: 300px;
     height: auto;
 }
 
