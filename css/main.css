@@ -166,7 +166,16 @@ p {
     text-align: center;
 }
 
+.hashtags {
+    color: #b43535;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(44, 41, 40, 0.795);
+    margin: 5vh;
+    font-size: 12px;
+}
 
-
-
-
+#footer {
+    text-align: center;
+    font-size: 3rem;
+}
