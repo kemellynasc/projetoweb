@@ -3,13 +3,20 @@
     height: 75px;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 html {
     background-color: #171717;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 0%;
     margin: 0 auto;
     padding: 0;
     overflow-x: hidden;
@@ -17,10 +24,6 @@ body {
 
 ul{
     padding: 0px !important;
-}
-
-.main{
-    width: 980px;
 }
 
 .logo{
@@ -63,9 +66,9 @@ a:link {
 .header2{
    
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 2px;
-    
+    background-color: #171717;
 
 }
 
@@ -158,6 +161,8 @@ p {
 }
 
 #melhores {
+    margin-top: 80px;
+    position: relative; 
     text-align: center;
 }
 
@@ -173,24 +178,4 @@ p {
 #footer {
     text-align: center;
     font-size: 3rem;
-}
-.btnbtn btn-primary{
-    background-color: #d33154d7; /* Cor de fundo personalizada */
-    color: rgb(45, 21, 21); /* Cor do texto */
-    padding: 10px 15px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remover sublinhado */
-}
-
-.header2 .menu ul li a.btn:hover {
-    background-color: #dbdfe2; /* Cor ao passar o mouse */
-}
-/* Personalizar o botão de login */
-.btn.btn-primary {
-    background-color: #efeeefd7; /* Cor de fundo personalizada */
-    color: rgb(45, 21, 21); /* Cor do texto */
-    padding: 10px 15px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remover sublinhado */
-    border: none; /* Remove a borda para evitar o fundo azul */
 }
